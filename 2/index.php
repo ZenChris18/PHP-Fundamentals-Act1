@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discriminant of a quadratic equation</title>
+    <title>Number 2</title>
 </head>
 <body>
     <form action="" method="POST">
@@ -36,11 +36,9 @@
                 echo "<p>User " . htmlspecialchars($_SESSION['loggedInUser']) . " has logged out.</p>";
                 session_unset();
                 session_destroy();
-            } else {
-                echo "<p>No user is logged in.</p>";
+            };
             }
         }
-    }
     ?>
 </body>
 </html>
